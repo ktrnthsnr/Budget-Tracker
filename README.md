@@ -24,7 +24,10 @@ https://ktrnthsnr.github.io/Budget-Tracker
 ## Description
 
 * Task focuses on allowing for mobile application offline functionality. A user will be able to add expenses and deposits to their budget with or without an internet connection. If a user were to start a transaction offline, the transaction would complete once back online.
-* IndexedDB and a service worker is used to manage offline functionality and persistence.
+* This application utilizes progressive web application (PWA) technology, allowing for offline functionality, to include 
+    * Webpack and manifest which are bundles and JSON files that can installed on a mobile phone's homescreen without requiring an app store
+    * IndexedDB and a service worker used to manage offline functionality and persistence
+* Application is deployed to Heroku, serving the backend Moongoose\MongoDB through mLab add-on
 
 ## Technology
 
