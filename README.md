@@ -4,8 +4,9 @@ Progressive Web Application (PWA) related challenge focusing mainly on improving
 
 ## GitHub URL
 
-https://github.com/ktrnthsnr/Budget-Tracker
-https://ktrnthsnr.github.io/Budget-Tracker
+* https://github.com/ktrnthsnr/Budget-Tracker
+
+* https://ktrnthsnr.github.io/Budget-Tracker
 
 ## Heroku website
 
@@ -27,7 +28,7 @@ https://ktrnthsnr.github.io/Budget-Tracker
 * This application utilizes progressive web application (PWA) technology, allowing for offline functionality, to include 
     * Webpack and manifest which are bundles and JSON files that can installed on a mobile phone's homescreen without requiring an app store
     * IndexedDB and a service worker used to manage offline functionality and persistence
-* Application is deployed to Heroku, serving the backend Moongoose\MongoDB through mLab add-on
+* The web application is deployed to and hosted on Heroku, serving the backend Moongoose\MongoDB through mLab add-on.
 
 ## Technology
 
