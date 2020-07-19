@@ -6,11 +6,9 @@ Progressive Web Application (PWA) related challenge focusing mainly on improving
 
 * https://github.com/ktrnthsnr/Budget-Tracker
 
-* https://ktrnthsnr.github.io/Budget-Tracker
-
 ## Heroku website
 
-
+* https://ktrnthsnr-budget-tracker.herokuapp.com/
 
 ## Table of Contents
 
