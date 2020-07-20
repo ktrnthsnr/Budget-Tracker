@@ -1,6 +1,6 @@
 # Budget Tracker
 
-Progressive Web Application (PWA) related challenge focusing on improving page load performance and offline access for a budget tracker website.
+Mobile web application for tracking budget deposits and expenses both online and offline, with focus on config to update transactional information if temporarily offline and improving page load performance through auditing and bundling.
 
 ## GitHub URL
 
@@ -25,7 +25,7 @@ Progressive Web Application (PWA) related challenge focusing on improving page l
 * Task focuses on allowing for mobile application offline functionality. A user will be able to add expenses and deposits to their budget with or without an internet connection. If a user were to start a transaction offline, the transaction would complete once back online.
 * This application utilizes progressive web application (PWA) technology, allowing for offline functionality, to include 
     * Webpack and manifest which are bundles and JSON files that can installed on a mobile phone's homescreen without requiring an app store
-    * IndexedDB and a service worker used to manage offline functionality and persistence
+    * IndexedDB and a service worker are used to manage offline access and functionality by caching assets
 * The web application is deployed to and hosted on Heroku, serving the backend Moongoose\MongoDB through mLab add-on.
 
 ## Technology
@@ -71,14 +71,17 @@ MongoDB, Express.js, Mongoose JS, Node.js, JavaScript, ES6, npm, Heroku, mLab, C
 
 ## Usage
 
-- If this applicatin is cloned from github, and after completing the installation `npm i`, then start up at the bash commandline, by typing
-- $ `npm start`
+- The website for the Budge Tracker has been deployed as a Heroku application,
+https://ktrnthsnr-budget-tracker.herokuapp.com/
+- To view the site locally, right click on the `index.html` and view the site on your browser.
 
 ## Testing
 
-- To run the webpack, type and run in the bash terminal `npm run build`
-- In this project exercise, the mode under the webpack.config.js is set to Development mode not Production mode. (Production mode would Uglify and minimize files.)
-- Clone the repo to your local drive, install per above, then run within the bash terminal to  instantiate the Express server `npm start`, and create the model.  You can reset the PORT under server.js and the database name under server.js and idb.js.
+- To create a `bundle.js` file with webpack, 
+- First run `npm i -D webpack webpack-cli` in your command line to install the webpack modules.
+- Then run in the bash terminal `npm run build`
+- Note, in this project exercise, the mode under the webpack.config.js is set to Development mode not Production mode. (Production mode would Uglify and minimize files.)
+
 
 ## Userstory
 
