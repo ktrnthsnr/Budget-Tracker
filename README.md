@@ -22,12 +22,14 @@ Mobile web application for tracking budget deposits and expenses both online and
 
 ## Description
 
-* Task focuses on allowing for mobile application offline functionality. A user will be able to add expenses and deposits to their budget with or without an internet connection. If a user were to start a transaction offline, the transaction would complete once back online.
-* This application utilizes progressive web application (PWA) technology, allowing for offline functionality, to include 
+* This project focuses on allowing for mobile application offline functionality. In this application, a user will be able to add expenses and deposits to their budget with or without an internet connection. If a user were to start a transaction offline, the transaction would complete once back online.
+
+* This application utilizes progressive web application (PWA) technology, allowing for mobile offline functionality, to include 
     * Included webpack modules to bundle js files for quicker page load response
-    * Used Web API IndexedDB and added a service worker to leverage browser-based storage and manage offline access and functionality by caching assets
+    * Used Web API IndexedDB, a NoSQL client-side storage API based in the browser, and
+    * Added a service worker to leverage browser-based storage and manage offline access and functionality by caching assets
     * Added a manifest JSON file so that the application can installed on a user's mobile phone's homescreen without requiring download from an app store
-* The web application is deployed to and hosted on Heroku, serving the backend Moongoose\MongoDB through mLab add-on.
+* The web application is deployed to and hosted on Heroku, serving the backend Moongoose\MongoDB through an mLab add-on.
 
 ## Technology
 
