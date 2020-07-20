@@ -24,13 +24,14 @@ Mobile web application for tracking budget deposits and expenses both online and
 
 * Task focuses on allowing for mobile application offline functionality. A user will be able to add expenses and deposits to their budget with or without an internet connection. If a user were to start a transaction offline, the transaction would complete once back online.
 * This application utilizes progressive web application (PWA) technology, allowing for offline functionality, to include 
-    * Webpack and manifest which are bundles and JSON files that can installed on a mobile phone's homescreen without requiring an app store
-    * IndexedDB and a service worker are used to manage offline access and functionality by caching assets
+    * Included webpack modules to bundle js files for quicker page load response
+    * Used Web API IndexedDB and added a service worker to leverage browser-based storage and manage offline access and functionality by caching assets
+    * Added a manifest JSON file so that the application can installed on a user's mobile phone's homescreen without requiring download from an app store
 * The web application is deployed to and hosted on Heroku, serving the backend Moongoose\MongoDB through mLab add-on.
 
 ## Technology
 
-MongoDB, Express.js, Mongoose JS, Node.js, JavaScript, ES6, npm, Heroku, mLab, Compression,  Morgan
+MongoDB, Express.js, Mongoose JS, Node.js, JavaScript, ES6, npm, Heroku, mLab, Compression,  Morgan, Webpack, Webpack CLI, Compression, Morgan
 
 ## Installations
 
@@ -77,11 +78,14 @@ https://ktrnthsnr-budget-tracker.herokuapp.com/
 
 ## Testing
 
-- To create a `bundle.js` file with webpack, 
-- First run `npm i -D webpack webpack-cli` in your command line to install the webpack modules.
-- Then run in the bash terminal `npm run build`
-- Note, in this project exercise, the mode under the webpack.config.js is set to Development mode not Production mode. (Production mode would Uglify and minimize files.)
-
+- To create a `bundle.js` file with webpack
+    - First run `npm i -D webpack webpack-cli` in your command line to install the webpack modules.
+    - Then run in the bash terminal `npm run build`
+    - Note, in this project exercise, the mode under the webpack.config.js is set to Development mode not Production mode. (Production mode would Uglify and minimize files.)
+- To register a Service Worker, run the following
+    - $ `npm run seed`
+    - $ `npm start`
+    - Open a browser http://localhost:3001 in Chrome and open DevTools or F12.  Within the Application tab, click Service Workers on the left menu to search for your service worker file.
 
 ## Userstory
 

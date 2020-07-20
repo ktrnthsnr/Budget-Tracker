@@ -1,6 +1,20 @@
 const router = require("express").Router();
 const Transaction = require("../models/transaction.js");
 
+
+// ------------ service worker ----------------
+const db = require('../models');
+
+module.exports = app => {
+  app.get('/api/icons', (req, res) => {
+    db.Image.find({}).then(dbImages => {
+      res.json(dbImages);
+    });
+  });
+};
+// ------------ service worker ----------------
+
+
 router.post("/api/transaction", ({body}, res) => {
   Transaction.create(body)
     .then(dbTransaction => {
@@ -30,5 +44,7 @@ router.get("/api/transaction", (req, res) => {
       res.status(404).json(err);
     });
 });
+
+
 
 module.exports = router;

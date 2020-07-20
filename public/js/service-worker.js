@@ -1,0 +1,1 @@
+console.log("Testing service-worker.js file...");

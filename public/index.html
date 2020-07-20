@@ -42,7 +42,26 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <!-- <script src="js/index.js"></script> -->
-       <script src="js/index.bundle.js"></script>  
+
+  <!-- updated to reference the newly created webpack bundle -->
+      <!-- <script src="js/index.js"></script> -->
+       <script src="assets/js/index.bundle.js"></script>  
+
+  <!-- register a service worker -->
+
+      <script src="/public/assets/js/loadImages.js"></script>
+
+       <script type="text/javascript">
+        (function() {
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+              .register('./service-worker.js')
+              .then(() => console.log('Service Worker registered successfully.'))
+              .catch(error =>
+                console.log('Service Worker registration failed:', error)
+              );
+          }
+        })();
+      </script>
 </body>
 </html>
