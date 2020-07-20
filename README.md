@@ -1,6 +1,6 @@
 # Budget Tracker
 
-Mobile web application for tracking budget deposits and expenses both online and offline, with focus on config to update transactional information if temporarily offline and improving page load performance through auditing and bundling.
+Mobile web application for tracking budget deposits and expenses both online and offline, with focus on config to manage NoSQL storage for transactional information if temporarily offline, and improving page load performance through auditing and bundling.
 
 ## GitHub URL
 
@@ -74,7 +74,7 @@ MongoDB, Express.js, Mongoose JS, Node.js, JavaScript, ES6, npm, Heroku, mLab, C
 
 ## Usage
 
-- The website for the Budge Tracker has been deployed as a Heroku application,
+- The website for the Budget Tracker application has been deployed as a Heroku website app,
 https://ktrnthsnr-budget-tracker.herokuapp.com/
 - To view the site locally, right click on the `index.html` and view the site on your browser.
 
