@@ -76,6 +76,8 @@ MongoDB, Express.js, Mongoose JS, Node.js, JavaScript, ES6, npm, Heroku, mLab, C
 
 ## Testing
 
+- To run the webpack, type and run in the bash terminal `npm run build`
+- In this project exercise, the mode under the webpack.config.js is set to Development mode not Production mode. (Production mode would Uglify and minimize files.)
 - Clone the repo to your local drive, install per above, then run within the bash terminal to  instantiate the Express server `npm start`, and create the model.  You can reset the PORT under server.js and the database name under server.js and idb.js.
 
 ## Userstory
