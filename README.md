@@ -76,7 +76,9 @@ MongoDB, Express.js, Mongoose JS, Node.js, JavaScript, ES6, npm, Heroku, mLab, C
 
 - The website for the Budget Tracker application has been deployed as a Heroku website app,
 https://ktrnthsnr-budget-tracker.herokuapp.com/
-- To view the site locally, right click on the `index.html` and view the site on your browser.
+- To view the site locally, run `npm start` and browse on the http://localhost:3001
+- Here is a walkthrough to demonstrate the application of IndexedDB, the browser-based API providing client storage and asynchronous operations whereby a transaction added when offline can be applied once back online.
+https://drive.google.com/file/d/16xGbLoIJQoUWqInetM6Z84JBpK1T0rgT/view
 
 ## Testing
 
