@@ -1,3 +1,4 @@
+require("bootstrap");
 
 loadImages();
 let dataArray = [];
@@ -58,3 +59,6 @@ function createCard(image) {
 
   return card;
 }
+
+
+module.exports = createEl;
