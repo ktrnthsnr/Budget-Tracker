@@ -98,6 +98,8 @@ https://drive.google.com/file/d/16xGbLoIJQoUWqInetM6Z84JBpK1T0rgT/view
 - To create a `bundle.js` file with webpack
     - First run `npm i -D webpack webpack-cli` in your command line to install the webpack modules.
     - Then run in the bash terminal `npm run build`
+        - This will start an interactive tree map and will render a report.html in the browser locally, showing each bundle size being loaded.
+        - Running the build will also create a manifest.json file, converting the app to a PWA. (Note, webpack is not needed to create a PWA, it is just what we're using for this project.) 
     - Note, in this project exercise, the mode under the webpack.config.js is set to Development mode not Production mode. (Production mode would Uglify and minimize files.)
 - To register and install a Service Worker, run the following
     - $ `npm run seed`
