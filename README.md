@@ -73,12 +73,14 @@ MongoDB, Express.js, Mongoose JS, Node.js, JavaScript, ES6, npm, Heroku, mLab, C
     - $ `npm i popper.js`
     - Install the webpack-bundle-analyzer
     - $ `npm install -D webpack-bundle-analyzer`
-    - Installed file-loader to optimize image files
+    - Installed file-loader to optimize image and JS files
     - $ `npm install -D file-loader`
     - Installed webpack loader
     - $ `npm install image-webpack-loader`
     - Installed dev server to view HTTPS locally, port 8080, starting $`npm run start:dev`
     - $ `npm install webpack-dev-server -D`
+    - Installed to convert the app to a mobile PWA
+    - $ `npm i -D webpack-pwa-manifest`
 
 ## Usage
 
