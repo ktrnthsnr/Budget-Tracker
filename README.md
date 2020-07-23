@@ -71,6 +71,12 @@ MongoDB, Express.js, Mongoose JS, Node.js, JavaScript, ES6, npm, Heroku, mLab, C
     - $ `npm i popper.js`
     - Install the webpack-bundle-analyzer
     - $ `npm install -D webpack-bundle-analyzer`
+    - Installed file-loader to optimize image files
+    - $ `npm install -D file-loader`
+    - Installed webpack loader
+    - $ `npm install image-webpack-loader`
+    - Installed dev server to view HTTPS locally, port 8080, starting $`npm run start:dev`
+    - $ `npm install webpack-dev-server -D`
 
 ## Usage
 
@@ -89,10 +95,12 @@ https://drive.google.com/file/d/16xGbLoIJQoUWqInetM6Z84JBpK1T0rgT/view
     - First run `npm i -D webpack webpack-cli` in your command line to install the webpack modules.
     - Then run in the bash terminal `npm run build`
     - Note, in this project exercise, the mode under the webpack.config.js is set to Development mode not Production mode. (Production mode would Uglify and minimize files.)
-- To register a Service Worker, run the following
+- To register and install a Service Worker, run the following
     - $ `npm run seed`
     - $ `npm start`
-    - Open a browser http://localhost:3001 in Chrome and open DevTools or F12.  Within the Application tab, click Service Workers on the left menu to search for your service worker file.
+- To view the application on the development server, run on your bash terminal and view on the browser at `http://localhost:8080`
+    - $ `npm run start:dev`
+    - Open a browser http://localhost:3001 in Chrome and open DevTools or F12.  Within the Application tab, click Cache Storage on the menu to view if the files listed in service-worker.js are cached.
 
 ## Userstory
 
