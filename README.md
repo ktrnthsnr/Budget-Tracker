@@ -1,4 +1,4 @@
-# Budget Tracker
+﻿# Budget Tracker
 
 Mobile web application for tracking budget deposits and expenses both online and offline, with focus on config to manage NoSQL storage for transactional information if temporarily offline, and improving page load performance through auditing and bundling.
 
@@ -78,7 +78,7 @@ MongoDB, Express.js, Mongoose JS, Node.js, JavaScript, ES6, npm, Heroku, mLab, C
 https://ktrnthsnr-budget-tracker.herokuapp.com/
 
 ![Budget Tracker](./budgettrackerWeb.jpg "Budget Tracker website")
-s
+
 - To view the site locally, run `npm start` and browse on the http://localhost:3001
 - Here is a walkthrough to demonstrate the application of IndexedDB, the browser-based API providing client storage and asynchronous operations whereby a transaction added when offline can be applied once back online.
 https://drive.google.com/file/d/16xGbLoIJQoUWqInetM6Z84JBpK1T0rgT/view
