@@ -9,10 +9,12 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 console.log(path.join(__dirname, './public'));
 
 module.exports = { 
-    entry: './public/js/index.js', 
+    entry: 
+      './public/js/index.js',
+        
     output: {
-        path: path.resolve(__dirname, './public/js')
-        ,
+        // path: path.resolve(__dirname, './public/js'),
+        path: __dirname + "/public/js",
         filename: 'index.bundle.js'
       },
       mode: 'development',
@@ -34,7 +36,7 @@ module.exports = {
       fingerprints: false,
       inject: false,
       icons: [{
-        src: path.resolve("/icons/icon-512x512.png"),
+        src: path.resolve("public/icons/icon-512x512.png"),
         sizes: [96, 128, 192, 256, 384, 512],
         destination: path.join("icons")
       }]
