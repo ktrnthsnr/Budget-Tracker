@@ -1,5 +1,9 @@
 # Convert app to a Progressive Web App (PWA)
 
+Walkthrough - how to add a PWA
+
+https://drive.google.com/file/d/1sYbYaFEOwJ1vZM02Z4Cfe1QHTpRIt3A7/view
+
 Added to convert the app to a mobile PWA:
 
 1. Installed within the bash terminal,  
