@@ -91,7 +91,7 @@ https://ktrnthsnr-budget-tracker.herokuapp.com/
 
 - To view the site locally, run `npm start` and browse on the http://localhost:3001
 - Here is a walkthrough to demonstrate the application of IndexedDB, the browser-based API providing client storage and asynchronous operations whereby a transaction added when offline can be applied once back online.
-https://drive.google.com/file/d/16xGbLoIJQoUWqInetM6Z84JBpK1T0rgT/view
+https://drive.google.com/file/d/1iCrYaJp47Ycl0ZLlvpwQlJcXY7TP8fs5/view
 
 ## Testing
 
