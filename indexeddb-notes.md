@@ -12,3 +12,5 @@ Adding offline persistance with NoSQL MongoDB\Mongoose JS, browser-based storage
 
 4. If you refresh the browser, the IndexedDB will clear.  To resolve this, add service worker and PWA.
 
+5. For Prod, to test via server, test with the dev server, see Read me for instructions.  After uploading to Heroku, afterwards enable the mLab backend add-on in order to store the info within the MongoDB.
+
