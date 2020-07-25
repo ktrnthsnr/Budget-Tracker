@@ -1,3 +1,5 @@
+# Convert app to a Progressive Web App (PWA)
+
 Added to convert the app to a mobile PWA:
 
 1. Installed within the bash terminal,  
@@ -8,10 +10,10 @@ Added to convert the app to a mobile PWA:
     
     (see the webpack.config.js for the property script)
 
-3. Run the webpack to create the manifest.json
+3. Run the webpack to create the `manifest.json`
     $ `npm run build`
 
-4. To link the manifest, added to the index.html the following:
+4. To link the manifest, added to the `index.html` the following:
     <link rel="manifest" href="<webpack.config output location>/manifest.json">
 
 5. View the website through the webpack-dev-server

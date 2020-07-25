@@ -6,7 +6,7 @@ const Transaction = require("../models/transaction.js");
 const db = require('../models');
 
 module.exports = app => {
-  app.get('/api/icons', (req, res) => {
+  app.get('/icons', (req, res) => {
     db.Image.find({}).then(dbImages => {
       res.json(dbImages);
     });
@@ -15,7 +15,7 @@ module.exports = app => {
 // ------------ service worker ----------------
 
 
-router.post("/api/transaction", ({body}, res) => {
+router.post("/transaction", ({body}, res) => {
   Transaction.create(body)
     .then(dbTransaction => {
       res.json(dbTransaction);
@@ -25,7 +25,7 @@ router.post("/api/transaction", ({body}, res) => {
     });
 });
 
-router.post("/api/transaction/bulk", ({body}, res) => {
+router.post("/transaction/bulk", ({body}, res) => {
   Transaction.insertMany(body)
     .then(dbTransaction => {
       res.json(dbTransaction);
@@ -35,7 +35,7 @@ router.post("/api/transaction/bulk", ({body}, res) => {
     });
 });
 
-router.get("/api/transaction", (req, res) => {
+router.get("/transaction", (req, res) => {
   Transaction.find({}).sort({date: -1})
     .then(dbTransaction => {
       res.json(dbTransaction);

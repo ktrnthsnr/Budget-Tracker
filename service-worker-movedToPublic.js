@@ -8,8 +8,8 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 
 // files to cache
 const FILES_TO_CACHE = [
-    "./public/index.html",
-    "./public/assets/css/style.css"
+    "../index.html",
+    "../css/style.css"
   ];
 
 // add event listener for install 

@@ -13,19 +13,19 @@ mongoose.connect(
 const imageSeed = [
   {
     description: 'Monetary Icons 1',
-    image: '/icons/images/icon-72x72.jpg',
+    image: './public/icons/icon-72x72.jpg',
     rating: 0,
     date: new Date(Date.now())
   },
   {
     description: 'Monetary Icons2',
-    image: '/icons/images/icon-96x96.jpg',
+    image: '//public/icons/icon-96x96.jpg',
     rating: 0,
     date: new Date(Date.now())
   },
   {
     description: 'Monetary Icons3',
-    image: '/icons/images/icon-128x128.jpg',
+    image: '/public/icons/icon-128x128.jpg',
     rating: 0,
     date: new Date(Date.now())
   },
@@ -37,7 +37,7 @@ const imageSeed = [
   },
   {
     description: 'Monetary Icons5',
-    image: '/icons/images/icon-152x152.jpg',
+    image: '/public/icons/icon-152x152.jpg',
     rating: 0,
     date: new Date(Date.now())
   },
@@ -49,13 +49,13 @@ const imageSeed = [
   },
   {
     description: 'Monetary Icons7',
-    image: '/icons/images/icon-384x384.jpg',
+    image: '/public/icons/icon-384x384.jpg',
     rating: 0,
     date: new Date(Date.now())
   },
   {
     description: 'Monetary Icons8',
-    image: '/icons/images/icon-512x512.jpg',
+    image: '/public/icons/icon-512x512.jpg',
     rating: 0,
     date: new Date(Date.now())
   }  

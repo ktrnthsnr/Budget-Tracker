@@ -6,7 +6,7 @@ const webpack = require("webpack");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const WebpackPwaManifest = require("webpack-pwa-manifest");
 
-console.log(path.join(__dirname, './public'));
+console.log(path.join(__dirname, './'));
 
 module.exports = { 
     entry: 
@@ -14,7 +14,7 @@ module.exports = {
         
     output: {
         // path: path.resolve(__dirname, './public/js'),
-        path: __dirname + "/public/js",
+        path: __dirname + './public/js',
         filename: 'index.bundle.js'
       },
       mode: 'development',
@@ -36,9 +36,9 @@ module.exports = {
       fingerprints: false,
       inject: false,
       icons: [{
-        src: path.resolve("public/icons/icon-512x512.png"),
+        src: path.resolve('./public/icons/icon-512x512.png'),
         sizes: [96, 128, 192, 256, 384, 512],
-        destination: path.join("icons")
+        destination: path.join('./public/icons')
       }]
     })
   ], 
