@@ -12,7 +12,7 @@ function createEl(htmlString = '', className) {
 }
 
 function loadImages() {
-  fetch('/api/icons')
+  fetch('/icons')
     .then(res => res.json())
     .then(data => {
       dataArray = data;
